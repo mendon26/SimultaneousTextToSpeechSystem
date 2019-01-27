@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.tts_finalproj.Button3"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Slow"
+            android:id="@+id/slow"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:clickable="true"
+            android:textSize="36sp"
+            android:backgroundTint="#ffffff" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Button"
+            android:id="@+id/straight"
+            android:layout_weight="1"
+            android:src="@drawable/strt"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Fast"
+            android:id="@+id/fast"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:clickable="true"
+            android:textSize="36sp"
+            android:singleLine="false"
+            android:backgroundTint="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Button"
+            android:id="@+id/left"
+            android:layout_weight="1"
+            android:src="@drawable/left"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/stop"
+            android:layout_weight="1"
+
+            android:src="@drawable/stop"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/right"
+            android:layout_weight="1"
+            android:src="@drawable/right"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="2"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Button"
+            android:id="@+id/imageButton"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:clickable="false"
+            android:backgroundTint="#ffffff" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Button"
+            android:id="@+id/uturn"
+            android:layout_weight="1"
+            android:src="@drawable/uturn"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Button"
+            android:id="@+id/imageButton3"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:clickable="false"
+            android:backgroundTint="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff">
+
+    </LinearLayout>
+</LinearLayout>
